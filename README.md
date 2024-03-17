@@ -97,6 +97,7 @@ Programming languages, package managers, and configuration:
 * [Node.js] and [npm], for running apps and installing JavaScript packages
 * [Ruby] stable for writing general-purpose code
 * [Yarn] for managing JavaScript packages
+* [Python] for Data Science and Machine Learning
 * [Rosetta 2] for running tools that are not supported in Apple silicon processors
 
 [Bundler]: http://bundler.io/
@@ -106,6 +107,7 @@ Programming languages, package managers, and configuration:
 [Ruby]: https://www.ruby-lang.org/en/
 [Yarn]: https://yarnpkg.com/en/
 [Rosetta 2]: https://developer.apple.com/documentation/apple-silicon/about-the-rosetta-translation-environment
+[Python]: https://www.python.org/
 
 Databases:
 
@@ -114,6 +116,16 @@ Databases:
 
 [DuckDB]: https://duckdb.org/
 [Redis]: http://redis.io/
+
+Dev Tools/Misc:
+
+* [Docker] for containerization
+* [JupyterLab] for notebooks
+* [FFmpeg] for audio/video processing
+
+[Docker]: https://www.docker.com/
+[JupyterLab]: https://jupyter.org/
+[FFmpeg]: https://ffmpeg.org/
 
 It should take less than 15 minutes to install (depends on your machine).
 

@@ -136,15 +136,24 @@ brew "zsh"
 # GitHub
 brew "gh"
 
-# Programming language prerequisites and package managers
+# Programming language prerequisites and managers
 brew "libyaml" # should come after openssl
 brew "coreutils"
 brew "yarn"
+brew "python"
 cask "gpg-suite-no-mail"
+
 
 # Databases
 brew "duckdb"
 brew "redis", restart_service: :changed
+
+# Misc Dev Tools
+brew "ffmpeg"
+brew "jupyterlab"
+cask "docker"
+
+
 EOF
 
 fancy_echo "Configuring asdf version manager ..."
